@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beverly.registrationdatabase">
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen"
+            android:label="EXAM FEE PAYMENT">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".googlepay"
+        android:label="Payment Gateway"/>
+
+        <activity android:name=".MainActivity"
+            android:label="LOGIN"/>
+        <activity
+            android:name=".Register"
+            android:label="REGISTRATION" />
+        <activity
+            android:name=".Homepage"
+            android:label="DETAILS" />
+        <activity android:name=".sem1"
+            android:label="SEM1"/>
+        <activity android:name=".sem2"
+            android:label="SEM2"/>
+        <activity android:name=".sem3"
+            android:label="SEM3"/>
+        <activity android:name=".sem4"
+            android:label="SEM4"/>
+        <activity android:name=".sem5"
+            android:label="SEM5"/>
+        <activity android:name=".sem6"
+            android:label="SEM6"/>
+        <activity android:name=".sem7"
+            android:label="SEM7"/>
+        <activity android:name=".sem8"
+            android:label="SEM8"/>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
